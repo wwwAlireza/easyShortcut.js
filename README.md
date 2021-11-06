@@ -53,7 +53,7 @@ new shortcut({
   }
 })
 ```
-Or we have a function ( **close All Tabs** ) and we want it to run when the shortcut ( ***alt + c*** ) is used :
+Or we have a function ( **closeAllTabs** ) and we want it to run when the shortcut ( ***alt + c*** ) is used :
 ```js
 new shortcut({
   alt: true,
