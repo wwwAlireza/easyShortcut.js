@@ -8,7 +8,7 @@ Advantages: <br>
 ### Install
 First you need to download the file, and link the original file in the src folder to your html document <br>
 ```html
-<script src="easyShortcut.js"></script>
+<script src="easyShortcut.min.js"></script>
 ```
 ### Use
 Then we create a new object (shortcut) for each shortcut <br>
