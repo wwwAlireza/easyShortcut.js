@@ -1,5 +1,5 @@
 # :keyboard:easyShortcut.js
-### A JavaScript Librarie To Create Custom Keyboard Shortcuts -  [_See sample_ →](https://wwwAlireza.github.io)
+### A JavaScript Librarie To Create Custom Keyboard Shortcuts -  [_See sample_ →](https://wwwalireza.github.io/easyShortcut.js/example/example.html)
 Advantages: <br>
 - Simplicity in making custom shortcuts
 - Clean coding (no need to define many ifs and else anymore)
