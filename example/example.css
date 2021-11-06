@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  background-color: #0d1117;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+}
+
+.header .title {
+  font-size: 5rem;
+  color: #fff;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  .header .title {
+    font-size: 3.2rem;
+  }
+}
+
+.header .icon {
+  width: auto;
+}
+
+.docs {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.docs .title {
+  font-size: 1.5rem;
+  color: #fff;
+  opacity: .7;
+  font-weight: lighter;
+}
+
+.docs .icon {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content .title {
+  color: #fff;
+  font-size: 4rem;
+  margin-top: 10%;
+  background-color: rgba(13, 110, 253, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  .content .title {
+    font-size: 2.5rem;
+  }
+}
+
+.content .title .title-shortcut {
+  font-size: 3rem;
+  background-color: #212526;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 450px) {
+  .content .title .title-shortcut {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=example.css.map */
