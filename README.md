@@ -61,9 +61,12 @@ new shortcut({
   fn: closeAllTabs
 })
 ```
-## Auxiliary function
+## Helper Function
 If you want to create a shortcut but do not know how to enter the key value, by calling the function ( ***showKeyInfo()*** ), every time you press it, <br>
 the corresponding key will be displayed in the console (log)
+```js
+  showKeyInfo()
+```
 
 
 
