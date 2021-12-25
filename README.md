@@ -48,7 +48,7 @@ new shortcut({
   ctrl: true,
   shift: true,
   key: "G",
-  fn: ()=>{
+  fn: () => {
     window.open("https://google.com")
   }
 })
