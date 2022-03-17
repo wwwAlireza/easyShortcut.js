@@ -7,6 +7,9 @@ Advantages: <br>
 # How to use
 ### Install
 First you need to download the file, and link the original file in the src folder to your html document <br>
+```js
+npm install easyshortcut
+```
 ```html
 <script src="easyShortcut.min.js"></script>
 ```
